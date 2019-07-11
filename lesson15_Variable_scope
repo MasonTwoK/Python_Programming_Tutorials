@@ -1,0 +1,12 @@
+a = 372
+
+def IronMan():
+    a = 371
+    print (a)
+
+
+def Thor():
+    print(a)
+
+IronMan()
+Thor()

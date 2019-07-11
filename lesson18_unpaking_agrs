@@ -1,0 +1,7 @@
+def kevinlove(*args):
+    r = args[0] + args[1] + args[2]
+    print(r)
+
+k = [23,0,17]
+
+kevinlove(*k)

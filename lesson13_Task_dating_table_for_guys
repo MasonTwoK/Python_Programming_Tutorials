@@ -1,0 +1,8 @@
+# Task 2: Dating table for guys
+def dating_age(guy_age):
+    girl_age = guy_age/2+7
+    return girl_age
+
+for i in range(17,79):
+    res = dating_age(i)
+    print(i," year old guy should date with ", res, " years old girls or older")

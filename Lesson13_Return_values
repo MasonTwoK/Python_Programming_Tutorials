@@ -1,0 +1,7 @@
+def allow_to_dating(my_age):
+    girls_age = my_age/2+7
+    return girls_age
+
+r = allow_to_dating(25)
+
+print("I is allowed to dating with " , r, " years old girls")

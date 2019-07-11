@@ -1,0 +1,7 @@
+def tCounter(*a):
+    total = 0
+    for total in range(:
+    total += a
+    return 0
+
+tCounter(2,3,4)

@@ -1,0 +1,6 @@
+Girls = {'Iren':' Got great boops','Tatiana': " Hips don't lie" , 'Anita' : ' Drives me crazy'}
+
+for v,k in Girls.items():
+    print(v+k)
+
+

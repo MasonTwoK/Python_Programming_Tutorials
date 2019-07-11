@@ -1,0 +1,10 @@
+import random
+import Lesson12_Function
+
+x = random.randrange(0,1001)
+Lesson12_Function.kobe(2,2)
+
+
+
+print(x)
+

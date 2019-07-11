@@ -1,0 +1,19 @@
+class Human:
+    name ="Nobody"
+    age = 0
+    def set(self,a,b):
+        self.name = a
+        self.age = b
+
+
+nik = Human()
+nik.name = "Nikolas"
+nik.age = 30
+john = Human()
+john.name = "Jonhatan"
+john.age = 23
+
+faith = Human()
+faith.set("Faith", 19)
+
+print(faith.name +" "+ str(faith.age))

@@ -1,0 +1,8 @@
+list_of_food = {'milk','choclate','candies','tomatoes','cheese','milk'}
+
+print(list_of_food)
+
+if 'milk' in list_of_food:
+    print("Man, you've already had it")
+else:
+    print("Dude, you need it")

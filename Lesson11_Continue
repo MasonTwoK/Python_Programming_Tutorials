@@ -1,0 +1,7 @@
+RetroJersy = [2,4]
+
+for i in range(0,5):
+    if i in RetroJersy:
+        continue
+    print(i)
+

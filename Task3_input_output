@@ -1,0 +1,5 @@
+print("Enter number")
+a = int(input())
+b = 11
+
+print(a+b)

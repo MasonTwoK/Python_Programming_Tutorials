@@ -1,0 +1,21 @@
+
+def calc(a,b,c):
+        if c is "+":
+            d = a+b
+        elif c is "-":
+            d = a-b
+        elif c is "*":
+            d = a*b
+        elif c is "/":
+            d = a/b
+        return d
+
+while 1: # Почему при while true IDE возвращает unresolved reference ?
+    print("Привет, я калькулятор")
+
+    a = int(input())
+    c = input()
+    b = int(input())
+    d = calc(a,b,c)
+
+    print("Ответ равен: ",d)

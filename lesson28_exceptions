@@ -1,0 +1,16 @@
+
+
+print ("Enter Lebron jersey number")
+
+while True:
+    try:
+        a = int(input())
+        b=23/a
+        print(b)
+        break
+    except ValueError:
+        print("Enter a number")
+    except ZeroDivisionError:
+        print ("Do not div to 0")
+    finally:
+        print("Kevin Durant 35")

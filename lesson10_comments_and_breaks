@@ -1,0 +1,8 @@
+MagicNum = 32
+
+for x in range (101):
+    if x is MagicNum:
+        print ("Magic " + "Jonson " , MagicNum )
+        break
+    else:
+        print(x)

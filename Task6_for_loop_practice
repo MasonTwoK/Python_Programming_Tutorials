@@ -1,0 +1,11 @@
+# loop for
+
+def sum(*args):
+    total =0
+    for x in args:
+        total+= x # что происходит когда прибавльяешь х почему x=  в первой итерации
+    return (total)
+
+a = sum(7,4)
+
+print(a)

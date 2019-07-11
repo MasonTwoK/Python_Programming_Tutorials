@@ -1,0 +1,7 @@
+n = ["tom","evan","james","mark"]
+
+for i in n[0:2]:
+    print(i)
+
+
+
